@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "jsx": "react-native",
+    "baseUrl": ".",
+    "maxNodeModuleJsDepth": 0
+  },
+  "include": [
+    "App.js",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".expo",
+    "android",
+    "ios",
+    "web-build"
+  ]
+}

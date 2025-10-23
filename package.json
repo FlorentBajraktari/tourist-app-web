@@ -1,0 +1,9 @@
+{
+  "name": "tourist-app-workspace",
+  "private": true,
+  "workspaces": ["frontend"],
+  "scripts": {
+    "start:frontend": "npm --prefix frontend start",
+    "lint": "echo 'No root lint configured'"
+  }
+}

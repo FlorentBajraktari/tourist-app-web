@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tourist API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #3564d4 0%, #6ad1ff 100%);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.12);
+        border-radius: 16px;
+        padding: 32px;
+        max-width: 520px;
+        box-shadow: 0 12px 40px rgba(10, 24, 65, 0.25);
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 2.4rem;
+      }
+      p {
+        line-height: 1.5;
+      }
+      a.button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 24px;
+        border-radius: 8px;
+        background: #fff;
+        color: #0b2b6b;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+      }
+      a.button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(11, 43, 107, 0.25);
+      }
+      code {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h1>Tourist API</h1>
+      <p>
+        Welcome to the Tourist app backend. Use the API endpoints to explore hotels,
+        restaurants and events in the city.
+      </p>
+      <p>
+        Browse the auto-generated API routes by visiting
+        <code>{{ api_root }}</code>.
+      </p>
+  <a class="button" href="{{ api_root }}">Explore API</a>
+  <a class="button" style="margin-left: 12px" href="/api/docs/">View Docs</a>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+[
+  {
+    "model": "places.hotel",
+    "pk": 1,
+    "fields": {
+      "name": "Grand Prishtina Hotel",
+      "description": "Elegant skyline suites with a rooftop spa and panoramic views over Mother Teresa Square.",
+      "price_per_night": "165.00",
+      "rating": "4.70",
+      "city": "Prishtina",
+      "country": "Kosovë",
+      "latitude": "42.662900",
+      "longitude": "21.165500",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 2,
+    "fields": {
+      "name": "Stone Bridge Boutique",
+      "description": "Restored Ottoman townhouse with artisan decor beside the Lumbardhi River in Prizren.",
+      "price_per_night": "132.00",
+      "rating": "4.55",
+      "city": "Prizren",
+      "country": "Kosovë",
+      "latitude": "42.209700",
+      "longitude": "20.739600",
+      "created_at": "2025-01-05T09:00:00Z",
+      "updated_at": "2025-01-05T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 3,
+    "fields": {
+      "name": "Rugova Mountain Lodge",
+      "description": "Scenic alpine retreat with guided hikes and locally sourced breakfasts in the Rugova Valley.",
+      "price_per_night": "148.00",
+      "rating": "4.80",
+      "city": "Peja",
+      "country": "Kosovë",
+      "latitude": "42.654700",
+      "longitude": "20.288500",
+      "created_at": "2025-01-08T09:00:00Z",
+      "updated_at": "2025-01-08T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 4,
+    "fields": {
+      "name": "Drini Riverside Suites",
+      "description": "Contemporary riverside suites with evening canoe tours through the heart of Gjakova.",
+      "price_per_night": "118.00",
+      "rating": "4.40",
+      "city": "Gjakova",
+      "country": "Kosovë",
+      "latitude": "42.382600",
+      "longitude": "20.428800",
+      "created_at": "2025-01-11T09:00:00Z",
+      "updated_at": "2025-01-11T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 5,
+    "fields": {
+      "name": "Mitrovica Panoramic Hotel",
+      "description": "Glass-fronted rooms overlooking the Iber River with easy access to the modern art center.",
+      "price_per_night": "142.00",
+      "rating": "4.35",
+      "city": "Mitrovica",
+      "country": "Kosovë",
+      "latitude": "42.890000",
+      "longitude": "20.866700",
+      "created_at": "2025-01-14T09:00:00Z",
+      "updated_at": "2025-01-14T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 6,
+    "fields": {
+      "name": "Tirana Sky Hotel",
+      "description": "Rooftop infinity pool and skyline bar steps away from Skanderbeg Square.",
+      "price_per_night": "175.00",
+      "rating": "4.65",
+      "city": "Tiranë",
+      "country": "Shqipëri",
+      "latitude": "41.327500",
+      "longitude": "19.818700",
+      "created_at": "2025-01-18T09:00:00Z",
+      "updated_at": "2025-01-18T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 7,
+    "fields": {
+      "name": "Berat Castle Residence",
+      "description": "Heritage suites carved into the stone citadel overlooking Berat's river valley.",
+      "price_per_night": "138.00",
+      "rating": "4.58",
+      "city": "Berat",
+      "country": "Shqipëri",
+      "latitude": "40.705600",
+      "longitude": "19.952200",
+      "created_at": "2025-01-20T09:00:00Z",
+      "updated_at": "2025-01-20T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.hotel",
+    "pk": 8,
+    "fields": {
+      "name": "Riviera Azure Resort",
+      "description": "Seafront villas with private decks on the turquoise waters near Sarandë.",
+      "price_per_night": "210.00",
+      "rating": "4.83",
+      "city": "Sarandë",
+      "country": "Shqipëri",
+      "latitude": "39.875600",
+      "longitude": "20.005600",
+      "created_at": "2025-01-22T09:00:00Z",
+      "updated_at": "2025-01-22T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 1,
+    "fields": {
+      "name": "Backyard Social",
+      "description": "Craft cocktails, vinyl DJ sets, and inventive small plates in a Prishtina courtyard.",
+      "opening_hours": "17:00-01:00",
+      "menu": "Seasonal tapas, smoked lamb sliders, signature cocktails",
+      "rating": "4.60",
+      "city": "Prishtina",
+      "country": "Kosovë",
+      "category": "bar",
+      "latitude": "42.661400",
+      "longitude": "21.159900",
+      "created_at": "2025-01-02T09:00:00Z",
+      "updated_at": "2025-01-02T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 2,
+    "fields": {
+      "name": "Lidhja Bistro",
+      "description": "Slow-food bistro celebrating mountain cheeses and freshwater trout on a terrace in Prizren.",
+      "opening_hours": "12:00-22:00",
+      "menu": "Aged cheese board, stuffed peppers, trout with hazelnut butter",
+      "rating": "4.50",
+      "city": "Prizren",
+      "country": "Kosovë",
+      "category": "restaurant",
+      "latitude": "42.209400",
+      "longitude": "20.739000",
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2025-01-06T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 3,
+    "fields": {
+      "name": "Rugova Chalet Dining",
+      "description": "Hearty mountain fare with herbs from the lodge gardens and wood-fired specialities.",
+      "opening_hours": "11:00-21:00",
+      "menu": "Bean stew, trout baked in ash, wild berry desserts",
+      "rating": "4.75",
+      "city": "Peja",
+      "country": "Kosovë",
+      "category": "restaurant",
+      "latitude": "42.661300",
+      "longitude": "20.300200",
+      "created_at": "2025-01-09T09:00:00Z",
+      "updated_at": "2025-01-09T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 4,
+    "fields": {
+      "name": "Dit' e Nat' Cafe",
+      "description": "Beloved bookshop café serving specialty coffee, veggie bowls, and live acoustic sets.",
+      "opening_hours": "08:00-23:00",
+      "menu": "Pour-over coffees, mezze platters, homemade cakes",
+      "rating": "4.65",
+      "city": "Prishtina",
+      "country": "Kosovë",
+      "category": "cafe",
+      "latitude": "42.661700",
+      "longitude": "21.157800",
+      "created_at": "2025-01-03T09:00:00Z",
+      "updated_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 5,
+    "fields": {
+      "name": "Çarshia Jazz Bar",
+      "description": "Late-night bar with live jazz trios and signature rakia infusions in Gjakova's old bazaar.",
+      "opening_hours": "18:00-02:00",
+      "menu": "Tapas plates, local wines, rakia flights",
+      "rating": "4.55",
+      "city": "Gjakova",
+      "country": "Kosovë",
+      "category": "bar",
+      "latitude": "42.380900",
+      "longitude": "20.428100",
+      "created_at": "2025-01-12T09:00:00Z",
+      "updated_at": "2025-01-12T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 6,
+    "fields": {
+      "name": "Iber Sky Lounge",
+      "description": "Riverside lounge with seasonal cocktails and sunset DJ sessions above Mitrovica's promenade.",
+      "opening_hours": "16:00-00:00",
+      "menu": "Signature cocktails, mezze boards, grilled skewers",
+      "rating": "4.45",
+      "city": "Mitrovica",
+      "country": "Kosovë",
+      "category": "bar",
+      "latitude": "42.888300",
+      "longitude": "20.866200",
+      "created_at": "2025-01-15T09:00:00Z",
+      "updated_at": "2025-01-15T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 7,
+    "fields": {
+      "name": "New Bazaar Taverna",
+      "description": "Farm-to-table Albanian dishes served beside Tirana's bustling Pazari i Ri.",
+      "opening_hours": "11:00-23:30",
+      "menu": "Flija, slow-cooked lamb, organic salads",
+      "rating": "4.68",
+      "city": "Tiranë",
+      "country": "Shqipëri",
+      "category": "restaurant",
+      "latitude": "41.331200",
+      "longitude": "19.823500",
+      "created_at": "2025-01-19T09:00:00Z",
+      "updated_at": "2025-01-19T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 8,
+    "fields": {
+      "name": "Gjirokastra Stone Bar",
+      "description": "Evening jazz sessions and craft cocktails tucked inside a UNESCO-era stone house.",
+      "opening_hours": "17:00-01:00",
+      "menu": "Rakia infusions, mezze boards, mountain cheeses",
+      "rating": "4.57",
+      "city": "Gjirokastër",
+      "country": "Shqipëri",
+      "category": "bar",
+      "latitude": "40.075800",
+      "longitude": "20.137200",
+      "created_at": "2025-01-21T09:00:00Z",
+      "updated_at": "2025-01-21T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.restaurant",
+    "pk": 9,
+    "fields": {
+      "name": "Saranda Sunset Cafe",
+      "description": "Seaside cafe with specialty espresso and gelato overlooking the promenade.",
+      "opening_hours": "08:00-00:00",
+      "menu": "Cold brew flights, seafood canapés, artisan gelato",
+      "rating": "4.62",
+      "city": "Sarandë",
+      "country": "Shqipëri",
+      "category": "cafe",
+      "latitude": "39.873800",
+      "longitude": "20.004900",
+      "created_at": "2025-01-23T09:00:00Z",
+      "updated_at": "2025-01-23T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 1,
+    "fields": {
+      "name": "Prishtina Night Market",
+      "description": "Weekly open-air market with street food vendors, artisan stalls, and live DJ sets downtown.",
+      "date": "2025-06-05",
+      "location": "Mother Teresa Boulevard",
+      "city": "Prishtina",
+      "country": "Kosovë",
+      "latitude": "42.663200",
+      "longitude": "21.162500",
+      "created_at": "2025-01-04T09:00:00Z",
+      "updated_at": "2025-01-04T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 2,
+    "fields": {
+      "name": "DokuFest Preview Screenings",
+      "description": "Outdoor film previews along the riverbank building excitement for Kosovo's largest film festival.",
+      "date": "2025-08-01",
+      "location": "Lumbardhi Riverfront",
+      "city": "Prizren",
+      "country": "Kosovë",
+      "latitude": "42.208900",
+      "longitude": "20.741200",
+      "created_at": "2025-01-07T09:00:00Z",
+      "updated_at": "2025-01-07T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 3,
+    "fields": {
+      "name": "Rugova Sunrise Yoga",
+      "description": "Guided sunrise yoga session overlooking the Rugova Canyon followed by a farm-to-table brunch.",
+      "date": "2025-07-12",
+      "location": "Rugova Canyon Outlook",
+      "city": "Peja",
+      "country": "Kosovë",
+      "latitude": "42.659500",
+      "longitude": "20.309000",
+      "created_at": "2025-01-10T09:00:00Z",
+      "updated_at": "2025-01-10T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 4,
+    "fields": {
+      "name": "Gjakova Jazz Weekend",
+      "description": "Three-day festival bringing Balkan jazz ensembles to Çarshija's historic courtyards.",
+      "date": "2025-09-19",
+      "location": "Old Bazaar Courtyards",
+      "city": "Gjakova",
+      "country": "Kosovë",
+      "latitude": "42.381200",
+      "longitude": "20.428500",
+      "created_at": "2025-01-13T09:00:00Z",
+      "updated_at": "2025-01-13T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 5,
+    "fields": {
+      "name": "Mitrovica Cultural Parade",
+      "description": "Colorful parade celebrating Mitrovica's creative scene with youth bands, street art, and dance crews.",
+      "date": "2025-05-30",
+      "location": "Iber Riverside Promenade",
+      "city": "Mitrovica",
+      "country": "Kosovë",
+      "latitude": "42.889400",
+      "longitude": "20.864900",
+      "created_at": "2025-01-16T09:00:00Z",
+      "updated_at": "2025-01-16T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 6,
+    "fields": {
+      "name": "Tirana Design Week",
+      "description": "City-wide exhibitions celebrating contemporary Albanian design and architecture.",
+      "date": "2025-10-05",
+      "location": "Pyramid of Tirana",
+      "city": "Tiranë",
+      "country": "Shqipëri",
+      "latitude": "41.325300",
+      "longitude": "19.825900",
+      "created_at": "2025-01-24T09:00:00Z",
+      "updated_at": "2025-01-24T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 7,
+    "fields": {
+      "name": "Berat Wine Walk",
+      "description": "Guided tasting trail through hillside vineyards with live folk music.",
+      "date": "2025-09-12",
+      "location": "Mangalem Quarter",
+      "city": "Berat",
+      "country": "Shqipëri",
+      "latitude": "40.706800",
+      "longitude": "19.944500",
+      "created_at": "2025-01-25T09:00:00Z",
+      "updated_at": "2025-01-25T09:00:00Z"
+    }
+  },
+  {
+    "model": "places.event",
+    "pk": 8,
+    "fields": {
+      "name": "Saranda Summer Festival",
+      "description": "Beachside celebration with live DJs, artisan markets, and sunset yoga sessions.",
+      "date": "2025-07-22",
+      "location": "Sarandë Promenade",
+      "city": "Sarandë",
+      "country": "Shqipëri",
+      "latitude": "39.874500",
+      "longitude": "20.005100",
+      "created_at": "2025-01-26T09:00:00Z",
+      "updated_at": "2025-01-26T09:00:00Z"
+    }
+  }
+]
